@@ -1,0 +1,9 @@
+Started by user [8mha:////4BYLyRxEKlwpXeSeqQyHCqLAeU0E9334YXwWQmLdU+4sAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYe/dLi1CL9lNTEpMRsACtRD4TBAAAA[0mDeabak Raja
+Building in workspace /home/vagrant/jenkins/workspace/Hello
+[Hello] $ /bin/sh -xe /tmp/jenkins8314450660929454864.sh
++ java -version
+openjdk version "1.8.0_191"
+OpenJDK Runtime Environment (build 1.8.0_191-b12)
+OpenJDK 64-Bit Server VM (build 25.191-b12, mixed mode)
++ ls
+Finished: SUCCESS
