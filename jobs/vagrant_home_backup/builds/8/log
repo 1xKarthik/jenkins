@@ -1,0 +1,10 @@
+Started by timer
+Building in workspace /home/vagrant/jenkins/workspace/vagrant_home_backup
+[vagrant_home_backup] $ /bin/sh -xe /tmp/jenkins3113480392709222020.sh
+++ date +Y%M%d_%H%M%S
++ stamp=Y4515_174500
++ tar -cvf /tmp/backup.Y4515_174500.tar /tmp/important
+tar: Removing leading `/' from member names
+/tmp/important/
++ gzip /tmp/backup.Y4515_174500.tar
+Finished: SUCCESS

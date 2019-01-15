@@ -1,0 +1,10 @@
+Started by timer
+Building in workspace /home/vagrant/jenkins/workspace/vagrant_home_backup
+[vagrant_home_backup] $ /bin/sh -xe /tmp/jenkins8093921834822351033.sh
+++ date +%Y%M%D_%H%M%S
++ stamp=20193501/15/19_173500
++ tar -cvf /tmp/backup_20193501/15/19_173500.tar /tmp/important
+tar: /tmp/backup_20193501/15/19_173500.tar: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
