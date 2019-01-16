@@ -1,0 +1,22 @@
+commit 5b703de6787a3bebdc7678389ee4982f34ffca7a
+tree 8735bbf5b99f61e79b7944984da9ffc2500128d9
+parent c95e1d385dccf37f8fa4f15ae453db330b4ca215
+author Karthik Girraju <karthik.girraj@gmail.com> 2019-01-16 18:06:10 +0000
+committer Karthik Girraju <karthik.girraj@gmail.com> 2019-01-16 18:06:10 +0000
+
+    changed feature1 text
+
+
+
+:100644 100644 abc148cb8c21ecc72089ea03da104279cfad9540 391a4bf05b350e59c477354f0741cfbe331e72d9 M	src/main/java/com/mycompany/app/App.java
+commit c95e1d385dccf37f8fa4f15ae453db330b4ca215
+tree a9fe7733bb6ea055956a8e9a73d0faa0a8085ef1
+parent fe93b2a6ec537287716ce7640c6c91de0ad61562
+author vagrant <vagrant@localhost.localdomain> 2019-01-16 17:57:26 +0000
+committer vagrant <vagrant@localhost.localdomain> 2019-01-16 17:57:26 +0000
+
+    changed the output text
+
+
+
+:100644 100644 77cf3e055bb4065b7b534c220d28df34b5ebe71c abc148cb8c21ecc72089ea03da104279cfad9540 M	src/main/java/com/mycompany/app/App.java

@@ -1,0 +1,30 @@
+Started by user [8mha:////4BYLyRxEKlwpXeSeqQyHCqLAeU0E9334YXwWQmLdU+4sAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYe/dLi1CL9lNTEpMRsACtRD4TBAAAA[0mDeabak Raja
+Building in workspace /home/vagrant/jenkins/workspace/hello_world_feature1
+Cloning the remote Git repository
+Cloning repository /home/vagrant/jenkins-apps/my-app/
+ > git init /home/vagrant/jenkins/workspace/hello_world_feature1 # timeout=10
+Fetching upstream changes from /home/vagrant/jenkins-apps/my-app/
+ > git --version # timeout=10
+ > git fetch --tags --progress /home/vagrant/jenkins-apps/my-app/ +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url /home/vagrant/jenkins-apps/my-app/ # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url /home/vagrant/jenkins-apps/my-app/ # timeout=10
+Fetching upstream changes from /home/vagrant/jenkins-apps/my-app/
+ > git fetch --tags --progress /home/vagrant/jenkins-apps/my-app/ +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/feature1^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/feature1^{commit} # timeout=10
+Checking out Revision fe93b2a6ec537287716ce7640c6c91de0ad61562 (refs/remotes/origin/feature1)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fe93b2a6ec537287716ce7640c6c91de0ad61562
+Commit message: "Initial commit"
+First time build. Skipping changelog.
+[hello_world_feature1] $ /usr/share/maven/bin/mvn clean verify -Dtest=AppTest -DskipITs=true
+[8mha:////4BvdCd4PILmv5V76riujhsdrCW9LWlEa1qsxXdIvLYctAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Could not create local repository at /var/lib/jenkins/.m2/repository -> [Help 1]
+[8mha:////4BvdCd4PILmv5V76riujhsdrCW9LWlEa1qsxXdIvLYctAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4BvdCd4PILmv5V76riujhsdrCW9LWlEa1qsxXdIvLYctAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4BvdCd4PILmv5V76riujhsdrCW9LWlEa1qsxXdIvLYctAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4BvdCd4PILmv5V76riujhsdrCW9LWlEa1qsxXdIvLYctAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4BvdCd4PILmv5V76riujhsdrCW9LWlEa1qsxXdIvLYctAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4BvdCd4PILmv5V76riujhsdrCW9LWlEa1qsxXdIvLYctAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LocalRepositoryNotAccessibleException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

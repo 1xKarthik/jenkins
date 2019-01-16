@@ -1,0 +1,14 @@
+Started by upstream project "[8mha:////4JEDFQeTJwz9v1lDMRskDERthH1l44QFEserHPBFts10AAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYp/az8JP2M1Jyc/Pjy/KKclPi01MSS0qJUQ30At8Ah/88AAAA=[0mhello_world_feature1" build number [8mha:////4GLFm+ww4EHQHK2AOTixKSAIkrYBeoI9O/0ArJ/KBhnmAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmn9rPwk/YzUnJz8+PL8opyU+LTUxJLSolRDfQsAZGtJddAAAAA=[0m8
+originally caused by:
+ Started by user [8mha:////4BYLyRxEKlwpXeSeqQyHCqLAeU0E9334YXwWQmLdU+4sAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYe/dLi1CL9lNTEpMRsACtRD4TBAAAA[0mDeabak Raja
+Building in workspace /home/vagrant/jenkins/workspace/hello_world_integration
+[hello_world_integration] $ /bin/sh -xe /tmp/jenkins8019068352803519079.sh
++ cd /home/vagrant/jenkins-apps/my-app
++ git checkout integration
+Switched to branch 'integration'
++ git merge feature1
+Updating c95e1d3..5b703de
+Fast-forward
+ src/main/java/com/mycompany/app/App.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Finished: SUCCESS

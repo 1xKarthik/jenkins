@@ -1,0 +1,33 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>echo &quot;BUILD_NUMBER&quot; :: $BUILD_NUMBER
+echo &quot;BUILD_ID&quot; :: $BUILD_ID
+echo &quot;BUILD_DISPLAY_NAME&quot; :: $BUILD_DISPLAY_NAME
+echo &quot;JOB_NAME&quot; :: $JOB_NAME
+echo &quot;JOB_BASE_NAME&quot; :: $JOB_BASE_NAME
+echo &quot;BUILD_TAG&quot; :: $BUILD_TAG
+echo &quot;EXECUTOR_NUMBER&quot; :: $EXECUTOR_NUMBER
+echo &quot;NODE_NAME&quot; :: $NODE_NAME
+echo &quot;NODE_LABELS&quot; :: $NODE_LABELS
+echo &quot;WORKSPACE&quot; :: $WORKSPACE
+echo &quot;JENKINS_HOME&quot; :: $JENKINS_HOME
+echo &quot;JENKINS_URL&quot; :: $JENKINS_URL
+echo &quot;BUILD_URL&quot; ::$BUILD_URL
+echo &quot;JOB_URL&quot; :: $JOB_URL</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

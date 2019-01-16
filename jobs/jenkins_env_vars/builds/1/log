@@ -1,0 +1,32 @@
+Started by user [8mha:////4BYLyRxEKlwpXeSeqQyHCqLAeU0E9334YXwWQmLdU+4sAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYe/dLi1CL9lNTEpMRsACtRD4TBAAAA[0mDeabak Raja
+Building in workspace /home/vagrant/jenkins/workspace/jenkins_env_vars
+[jenkins_env_vars] $ /bin/sh -xe /tmp/jenkins4382629819654122090.sh
++ echo BUILD_NUMBER :: 1
+BUILD_NUMBER :: 1
++ echo BUILD_ID :: 1
+BUILD_ID :: 1
++ echo BUILD_DISPLAY_NAME :: '#1'
+BUILD_DISPLAY_NAME :: #1
++ echo JOB_NAME :: jenkins_env_vars
+JOB_NAME :: jenkins_env_vars
++ echo JOB_BASE_NAME :: jenkins_env_vars
+JOB_BASE_NAME :: jenkins_env_vars
++ echo BUILD_TAG :: jenkins-jenkins_env_vars-1
+BUILD_TAG :: jenkins-jenkins_env_vars-1
++ echo EXECUTOR_NUMBER :: 1
+EXECUTOR_NUMBER :: 1
++ echo NODE_NAME :: master
+NODE_NAME :: master
++ echo NODE_LABELS :: master
+NODE_LABELS :: master
++ echo WORKSPACE :: /home/vagrant/jenkins/workspace/jenkins_env_vars
+WORKSPACE :: /home/vagrant/jenkins/workspace/jenkins_env_vars
++ echo JENKINS_HOME :: /home/vagrant/jenkins
+JENKINS_HOME :: /home/vagrant/jenkins
++ echo JENKINS_URL :: http://192.168.33.10:8080/
+JENKINS_URL :: http://192.168.33.10:8080/
++ echo BUILD_URL ::http://192.168.33.10:8080/job/jenkins_env_vars/1/
+BUILD_URL ::http://192.168.33.10:8080/job/jenkins_env_vars/1/
++ echo JOB_URL :: http://192.168.33.10:8080/job/jenkins_env_vars/
+JOB_URL :: http://192.168.33.10:8080/job/jenkins_env_vars/
+Finished: SUCCESS

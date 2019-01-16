@@ -1,0 +1,65 @@
+Started by user [8mha:////4BYLyRxEKlwpXeSeqQyHCqLAeU0E9334YXwWQmLdU+4sAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYe/dLi1CL9lNTEpMRsACtRD4TBAAAA[0mDeabak Raja
+Building in workspace /home/vagrant/jenkins/workspace/hello_world_feature1
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url /home/vagrant/jenkins-apps/my-app/ # timeout=10
+Fetching upstream changes from /home/vagrant/jenkins-apps/my-app/
+ > git --version # timeout=10
+ > git fetch --tags --progress /home/vagrant/jenkins-apps/my-app/ +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/feature1^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/feature1^{commit} # timeout=10
+Checking out Revision fe93b2a6ec537287716ce7640c6c91de0ad61562 (refs/remotes/origin/feature1)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fe93b2a6ec537287716ce7640c6c91de0ad61562
+Commit message: "Initial commit"
+ > git rev-list --no-walk fe93b2a6ec537287716ce7640c6c91de0ad61562 # timeout=10
+[hello_world_feature1] $ /usr/share/maven/bin/mvn clean verify -Dtest=AppTest -DskipITs=true
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4E3PN7OgsQmnIcq/PssxyhHUgmpo80gHUXZZZy6C/2/RAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ my-app ---
+[INFO] Deleting /home/vagrant/jenkins/workspace/hello_world_feature1/target
+[INFO] 
+[8mha:////4E3PN7OgsQmnIcq/PssxyhHUgmpo80gHUXZZZy6C/2/RAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/vagrant/jenkins/workspace/hello_world_feature1/src/main/resources
+[INFO] 
+[8mha:////4E3PN7OgsQmnIcq/PssxyhHUgmpo80gHUXZZZy6C/2/RAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/vagrant/jenkins/workspace/hello_world_feature1/target/classes
+[INFO] 
+[8mha:////4E3PN7OgsQmnIcq/PssxyhHUgmpo80gHUXZZZy6C/2/RAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/vagrant/jenkins/workspace/hello_world_feature1/src/test/resources
+[INFO] 
+[8mha:////4E3PN7OgsQmnIcq/PssxyhHUgmpo80gHUXZZZy6C/2/RAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/vagrant/jenkins/workspace/hello_world_feature1/target/test-classes
+[INFO] 
+[8mha:////4E3PN7OgsQmnIcq/PssxyhHUgmpo80gHUXZZZy6C/2/RAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ my-app ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.mycompany.app.AppTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 s - in com.mycompany.app.AppTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[8mha:////4E3PN7OgsQmnIcq/PssxyhHUgmpo80gHUXZZZy6C/2/RAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ my-app ---
+[INFO] Building jar: /home/vagrant/jenkins/workspace/hello_world_feature1/target/my-app-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.877s
+[INFO] Finished at: Wed Jan 16 17:55:18 UTC 2019
+[INFO] Final Memory: 13M/101M
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4Pi1gVuoE5YLfoFZuPZVOOjspKxK1U7Gi6TtrVtFCii3AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZZ/az8JP2M1Jyc/Pjy/KKclPjMvJLU9KLEksz8PH0AG7k45dIAAAA=[0mhello_world_integration
+Finished: SUCCESS

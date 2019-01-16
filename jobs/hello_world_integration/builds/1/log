@@ -1,0 +1,9 @@
+Started by upstream project "[8mha:////4JEDFQeTJwz9v1lDMRskDERthH1l44QFEserHPBFts10AAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYp/az8JP2M1Jyc/Pjy/KKclPi01MSS0qJUQ30At8Ah/88AAAA=[0mhello_world_feature1" build number [8mha:////4PXCWu5cpJHwJWjN8S5hqaA8urzE89W/GhGLUdTTRPmlAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmn9rPwk/YzUnJz8+PL8opyU+LTUxJLSolRDfRMATyf/fNAAAAA=[0m4
+originally caused by:
+ Started by user [8mha:////4BYLyRxEKlwpXeSeqQyHCqLAeU0E9334YXwWQmLdU+4sAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYe/dLi1CL9lNTEpMRsACtRD4TBAAAA[0mDeabak Raja
+Building in workspace /home/vagrant/jenkins/workspace/hello_world_integration
+[hello_world_integration] $ /bin/sh -xe /tmp/jenkins3835886896182250209.sh
++ cd /home/vagrant/jenkins-app/my-app
+/tmp/jenkins3835886896182250209.sh: line 2: cd: /home/vagrant/jenkins-app/my-app: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4JEDFQeTJwz9v1lDMRskDERthH1l44QFEserHPBFts10AAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYp/az8JP2M1Jyc/Pjy/KKclPi01MSS0qJUQ30At8Ah/88AAAA=[0mhello_world_feature1" build number [8mha:////4CAcMJjVMsPHZf1ig5rmn3Ctpq5KlrZJ2EX/27fk8B4dAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmn9rPwk/YzUnJz8+PL8opyU+LTUxJLSolRDfVMA2Rf4C9AAAAA=[0m5
+originally caused by:
+ Started by user [8mha:////4BYLyRxEKlwpXeSeqQyHCqLAeU0E9334YXwWQmLdU+4sAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYe/dLi1CL9lNTEpMRsACtRD4TBAAAA[0mDeabak Raja
+Building in workspace /home/vagrant/jenkins/workspace/hello_world_integration
+[hello_world_integration] $ /bin/sh -xe /tmp/jenkins1263385020297597467.sh
++ cd /home/vagrant/jenkins-apps/my-app
++ git checkout integration
+Switched to branch 'integration'
++ git merge feature1
+Already up-to-date.
+Finished: SUCCESS
