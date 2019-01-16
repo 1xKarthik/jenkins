@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: pierrebeitz
+Build-Jdk: 1.8.0_172
+Extension-Name: audit-trail
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: audit-trail
+Implementation-Version: 2.4
+Plugin-Class: hudson.plugins.audit_trail.AuditTrailPlugin
+Group-Id: org.jenkins-ci.plugins
+Short-Name: audit-trail
+Long-Name: Audit Trail
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Audit+Trail+Plugin
+Plugin-Version: 2.4
+Hudson-Version: 2.60.3
+Jenkins-Version: 2.60.3
+Plugin-Developers: 
+
