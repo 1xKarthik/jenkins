@@ -1,9 +1,9 @@
-Started on Jan 16, 2019 7:00:00 PM
+Started on Jan 17, 2019 3:00:00 PM
 Using strategy: Default
 [poll] Last Built Revision: Revision 5b703de6787a3bebdc7678389ee4982f34ffca7a (refs/remotes/origin/feature1)
  > git --version # timeout=10
  > git ls-remote -h /home/vagrant/jenkins-apps/my-app/ # timeout=10
 Found 4 remote heads on /home/vagrant/jenkins-apps/my-app/
 [poll] Latest remote head revision on refs/heads/feature1 is: 5b703de6787a3bebdc7678389ee4982f34ffca7a - already built by 8
-Done. Took 88 ms
+Done. Took 0.17 sec
 No changes

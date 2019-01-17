@@ -1,0 +1,119 @@
+Started by user [8mha:////4BYLyRxEKlwpXeSeqQyHCqLAeU0E9334YXwWQmLdU+4sAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYe/dLi1CL9lNTEpMRsACtRD4TBAAAA[0mDeabak Raja
+ln builds/lastSuccessfulBuild /home/vagrant/jenkins/jobs/resume_angularjs/lastSuccessful failed
+java.nio.file.FileSystemException: /home/vagrant/jenkins/jobs/resume_angularjs/lastSuccessful: Protocol error
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.createSymbolicLink(UnixFileSystemProvider.java:457)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at hudson.Util.createSymlink(Util.java:1398)
+	at hudson.model.Run.createSymlink(Run.java:1949)
+	at hudson.model.Run.updateSymlinks(Run.java:1930)
+	at hudson.model.Run.execute(Run.java:1808)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+ln builds/lastStableBuild /home/vagrant/jenkins/jobs/resume_angularjs/lastStable failed
+java.nio.file.FileSystemException: /home/vagrant/jenkins/jobs/resume_angularjs/lastStable: Protocol error
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.createSymbolicLink(UnixFileSystemProvider.java:457)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at hudson.Util.createSymlink(Util.java:1398)
+	at hudson.model.Run.createSymlink(Run.java:1949)
+	at hudson.model.Run.updateSymlinks(Run.java:1931)
+	at hudson.model.Run.execute(Run.java:1808)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Building in workspace /home/vagrant/jenkins/workspace/resume_angularjs
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:karraju/jenkins-angular-generator.git # timeout=10
+Fetching upstream changes from git@github.com:karraju/jenkins-angular-generator.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:karraju/jenkins-angular-generator.git +refs/heads/*:refs/remotes/origin/*
+[WARNING] temp file /home/vagrant/jenkins/workspace/resume_angularjs@tmp/ssh2003030716839251748.key not deleted
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 552012a4a709c6b83d95d5d717e0e2ce28b06699 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 552012a4a709c6b83d95d5d717e0e2ce28b06699
+Commit message: "first commit"
+ > git rev-list --no-walk 552012a4a709c6b83d95d5d717e0e2ce28b06699 # timeout=10
+[resume_angularjs] $ /bin/sh -xe /tmp/jenkins3163175281251501887.sh
++ npm install --no-optional
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated gulp-protractor@2.1.0: major security issue https://github.com/dominictarr/event-stream/issues/116 issue in v4.1.1
+npm WARN deprecated gulp-util@3.0.7: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated gulp-footer@1.0.5: Security vulnerability surrounding event-stream, do *NOT* use.
+npm WARN deprecated gulp-header@1.8.2: Removed event-stream from gulp-header
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@3.0.11: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated tough-cookie@2.2.2: ReDoS vulnerability parsing Set-Cookie https://nodesecurity.io/advisories/130
+npm WARN deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN rollback Rolling back brace-expansion@1.1.11 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/brace-expansion/package.json.3163176491'
+npm WARN rollback Rolling back balanced-match@1.0.0 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/brace-expansion/node_modules/balanced-match/package.json.959189716'
+npm WARN rollback Rolling back async-each-series@0.1.1 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/browser-sync-ui/node_modules/async-each-series/package.json.2003273579'
+npm WARN rollback Rolling back isobject@3.0.1 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/cache-base/node_modules/isobject/package.json.76170778'
+npm WARN rollback Rolling back async-each-series@0.1.1 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/browser-sync/node_modules/async-each-series/package.json.3831109222'
+npm WARN rollback Rolling back ansi-styles@2.2.1 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/chalk/node_modules/ansi-styles/package.json.1648479193'
+npm WARN rollback Rolling back async-each@1.0.1 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/chokidar/node_modules/async-each/package.json.1744567738'
+npm WARN rollback Rolling back class-utils@0.3.6 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/class-utils/package.json.1452167097'
+npm WARN rollback Rolling back arr-union@3.1.0 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/class-utils/node_modules/arr-union/package.json.1978095120'
+npm WARN rollback Rolling back isobject@3.0.1 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/class-utils/node_modules/isobject/package.json.3910006001'
+npm WARN rollback Rolling back clean-css@3.4.28 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/clean-css/package.json.1872658253'
+npm WARN rollback Rolling back define-property@0.2.5 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/class-utils/node_modules/define-property/package.json.2976049653'
+npm WARN rollback Rolling back source-map@0.4.4 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/clean-css/node_modules/source-map/package.json.3730455048'
+npm WARN rollback Rolling back currently-unhandled@0.4.1 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/currently-unhandled/package.json.5686250'
+npm WARN rollback Rolling back amdefine@1.0.1 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/clean-css/node_modules/amdefine/package.json.391661174'
+npm WARN rollback Rolling back pinkie@1.0.0 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/del/node_modules/pinkie/package.json.1926703807'
+npm WARN rollback Rolling back array-find-index@1.0.2 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/currently-unhandled/node_modules/array-find-index/package.json.114328590'
+npm WARN rollback Rolling back after@0.8.2 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/engine.io-parser/node_modules/after/package.json.518504444'
+npm WARN rollback Rolling back ms@0.7.2 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/engine.io-client/node_modules/ms/package.json.3945430592'
+npm WARN rollback Rolling back engine.io-parser@1.3.2 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/engine.io-parser/package.json.1723511336'
+npm WARN rollback Rolling back pinkie-promise@1.0.0 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/del/node_modules/pinkie-promise/package.json.1682455204'
+npm WARN rollback Rolling back engine.io-client@1.8.5 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/engine.io-client/package.json.2055593554'
+npm WARN rollback Rolling back debug@2.3.3 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/engine.io-client/node_modules/debug/package.json.2702020356'
+npm WARN rollback Rolling back arraybuffer.slice@0.0.6 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/engine.io-parser/node_modules/arraybuffer.slice/package.json.1582912451'
+npm WARN rollback Rolling back base64-arraybuffer@0.1.5 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/engine.io-parser/node_modules/base64-arraybuffer/package.json.632564593'
+npm WARN rollback Rolling back accepts@1.3.3 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/engine.io/node_modules/accepts/package.json.3368524684'
+npm WARN rollback Rolling back ms@0.7.2 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/engine.io/node_modules/ms/package.json.616940553'
+npm WARN rollback Rolling back engine.io@1.8.5 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/engine.io/package.json.2832334011'
+npm WARN rollback Rolling back base64id@1.0.0 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/engine.io/node_modules/base64id/package.json.378967859'
+npm WARN rollback Rolling back debug@2.3.3 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/engine.io/node_modules/debug/package.json.3346131578'
+npm WARN rollback Rolling back lodash._baseclone@3.3.0 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/eslint/node_modules/lodash._baseclone/package.json.4095275100'
+npm WARN rollback Rolling back array-slice@0.2.3 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/expand-braces/node_modules/array-slice/package.json.1558668354'
+npm WARN rollback Rolling back lodash.clonedeep@3.0.2 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/eslint/node_modules/lodash.clonedeep/package.json.4057044449'
+npm WARN rollback Rolling back is-number@0.1.1 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/expand-braces/node_modules/is-number/package.json.2310433396'
+npm WARN rollback Rolling back expand-braces@0.1.2 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/expand-braces/package.json.1343567336'
+npm WARN rollback Rolling back repeat-string@0.2.2 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/expand-braces/node_modules/repeat-string/package.json.3119337561'
+npm WARN rollback Rolling back array-unique@0.2.1 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/expand-braces/node_modules/array-unique/package.json.2075945160'
+npm WARN rollback Rolling back expand-range@0.1.1 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/expand-braces/node_modules/expand-range/package.json.405333196'
+npm WARN rollback Rolling back braces@0.1.5 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/expand-braces/node_modules/braces/package.json.2923631147'
+npm WARN rollback Rolling back chalk@1.1.3 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/chalk/node_modules/ansi-styles/package.json.1648479193'
+npm WARN rollback Rolling back eslint@1.10.3 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/eslint/node_modules/js-yaml/package.json.3706119964'
+npm WARN rollback Rolling back cache-base@1.0.1 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/cache-base/node_modules/isobject/package.json.76170778'
+npm WARN rollback Rolling back browser-sync-ui@0.5.19 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/browser-sync-ui/node_modules/async-each-series/package.json.2003273579'
+npm WARN rollback Rolling back del@2.0.2 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/del/node_modules/pinkie/package.json.1926703807'
+npm WARN rollback Rolling back chokidar@1.7.0 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/chokidar/node_modules/async-each/package.json.1744567738'
+npm WARN rollback Rolling back browser-sync@2.9.12 failed (this is probably harmless): ETXTBSY: text file is busy, unlink '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/browser-sync/node_modules/async-each-series/package.json.3831109222'
+npm WARN angularGenerator@0.0.0 No repository field.
+npm WARN angularGenerator@0.0.0 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: amdefine@1.0.1 (node_modules/escodegen/node_modules/amdefine):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ETXTBSY: text file is busy, rename '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/escodegen/node_modules/amdefine/package.json.2868314879' -> '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/escodegen/node_modules/amdefine/package.json'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: source-map@0.2.0 (node_modules/escodegen/node_modules/source-map):
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ETXTBSY: text file is busy, rename '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/escodegen/node_modules/source-map/package.json.621785096' -> '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/escodegen/node_modules/source-map/package.json'
+
+npm ERR! path /home/vagrant/jenkins/workspace/resume_angularjs/node_modules/brace-expansion/package.json.3163176491
+npm ERR! code ETXTBSY
+npm ERR! errno -26
+npm ERR! syscall rename
+npm ERR! ETXTBSY: text file is busy, rename '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/brace-expansion/package.json.3163176491' -> '/home/vagrant/jenkins/workspace/resume_angularjs/node_modules/brace-expansion/package.json'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /var/lib/jenkins/.npm/_logs/2019-01-17T15_12_31_689Z-debug.log
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

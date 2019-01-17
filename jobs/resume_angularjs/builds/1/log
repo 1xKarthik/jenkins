@@ -1,0 +1,57 @@
+Started by user [8mha:////4BYLyRxEKlwpXeSeqQyHCqLAeU0E9334YXwWQmLdU+4sAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYe/dLi1CL9lNTEpMRsACtRD4TBAAAA[0mDeabak Raja
+ln builds/lastSuccessfulBuild /home/vagrant/jenkins/jobs/resume_angularjs/lastSuccessful failed
+java.nio.file.FileSystemException: /home/vagrant/jenkins/jobs/resume_angularjs/lastSuccessful: Protocol error
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.createSymbolicLink(UnixFileSystemProvider.java:457)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at hudson.Util.createSymlink(Util.java:1398)
+	at hudson.model.Run.createSymlink(Run.java:1949)
+	at hudson.model.Run.updateSymlinks(Run.java:1930)
+	at hudson.model.Run.execute(Run.java:1808)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+ln builds/lastStableBuild /home/vagrant/jenkins/jobs/resume_angularjs/lastStable failed
+java.nio.file.FileSystemException: /home/vagrant/jenkins/jobs/resume_angularjs/lastStable: Protocol error
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.createSymbolicLink(UnixFileSystemProvider.java:457)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at hudson.Util.createSymlink(Util.java:1398)
+	at hudson.model.Run.createSymlink(Run.java:1949)
+	at hudson.model.Run.updateSymlinks(Run.java:1931)
+	at hudson.model.Run.execute(Run.java:1808)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Building in workspace /home/vagrant/jenkins/workspace/resume_angularjs
+Cloning the remote Git repository
+Cloning repository git@github.com:karraju/jenkins-angular-generator.git
+ > git init /home/vagrant/jenkins/workspace/resume_angularjs # timeout=10
+Fetching upstream changes from git@github.com:karraju/jenkins-angular-generator.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:karraju/jenkins-angular-generator.git +refs/heads/*:refs/remotes/origin/*
+[WARNING] temp file /home/vagrant/jenkins/workspace/resume_angularjs@tmp/ssh6185423888848768038.key not deleted
+ > git config remote.origin.url git@github.com:karraju/jenkins-angular-generator.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:karraju/jenkins-angular-generator.git # timeout=10
+Fetching upstream changes from git@github.com:karraju/jenkins-angular-generator.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress git@github.com:karraju/jenkins-angular-generator.git +refs/heads/*:refs/remotes/origin/*
+[WARNING] temp file /home/vagrant/jenkins/workspace/resume_angularjs@tmp/ssh2623811620595168740.key not deleted
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 552012a4a709c6b83d95d5d717e0e2ce28b06699 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 552012a4a709c6b83d95d5d717e0e2ce28b06699
+Commit message: "first commit"
+First time build. Skipping changelog.
+[resume_angularjs] $ /bin/sh -xe /tmp/jenkins8270698882127081747.sh
++ npm install
+/tmp/jenkins8270698882127081747.sh: line 2: npm: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

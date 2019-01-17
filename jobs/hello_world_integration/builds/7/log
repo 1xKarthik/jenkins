@@ -1,0 +1,37 @@
+Started by user [8mha:////4BYLyRxEKlwpXeSeqQyHCqLAeU0E9334YXwWQmLdU+4sAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYe/dLi1CL9lNTEpMRsACtRD4TBAAAA[0mDeabak Raja
+ln builds/lastSuccessfulBuild /home/vagrant/jenkins/jobs/hello_world_integration/lastSuccessful failed
+java.nio.file.FileSystemException: /home/vagrant/jenkins/jobs/hello_world_integration/lastSuccessful: Protocol error
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.createSymbolicLink(UnixFileSystemProvider.java:457)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at hudson.Util.createSymlink(Util.java:1398)
+	at hudson.model.Run.createSymlink(Run.java:1949)
+	at hudson.model.Run.updateSymlinks(Run.java:1930)
+	at hudson.model.Run.execute(Run.java:1808)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+ln builds/lastStableBuild /home/vagrant/jenkins/jobs/hello_world_integration/lastStable failed
+java.nio.file.FileSystemException: /home/vagrant/jenkins/jobs/hello_world_integration/lastStable: Protocol error
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:91)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileSystemProvider.createSymbolicLink(UnixFileSystemProvider.java:457)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at hudson.Util.createSymlink(Util.java:1398)
+	at hudson.model.Run.createSymlink(Run.java:1949)
+	at hudson.model.Run.updateSymlinks(Run.java:1931)
+	at hudson.model.Run.execute(Run.java:1808)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Building in workspace /home/vagrant/jenkins/workspace/hello_world_integration
+[hello_world_integration] $ /bin/sh -xe /tmp/jenkins7049772790359151917.sh
++ cd /home/vagrant/jenkins-apps/my-app
++ git checkout integration
+Already on 'integration'
++ git merge feature1
+Already up-to-date.
+Finished: SUCCESS
